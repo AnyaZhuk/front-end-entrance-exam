@@ -32,5 +32,5 @@
 *   Библиотеки: `html2canvas`, `jsPDF`
 
 ## Запуск проекта
-1.  Клонируйте репозиторий: `git clone https://github.com/[ТВОЙ-НИК]/[НАЗВАНИЕ-РЕПОЗИТОРИЯ].git`
+1.  Клонируйте репозиторий: `https://github.com/AnyaZhuk/front-end-entrance-exam`
 2.  Откройте файл `index.html` в любом браузере.
