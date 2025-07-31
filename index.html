@@ -1,13 +1,264 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Резюме - Жукевич Анна</title>.
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="./js/main.js"></script>
-  </body>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Итоговый проект Жукевич Анны</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="page-container">
+        <header class="header">
+            <div class="header__container">
+                
+                <div class="header__card profile-card">
+                    <img src="images/remi.webp" alt="Фотография Karthik SR" class="profile-card__image">
+                </div>
+
+                <div class="header__card info-card">
+                    <p class="info-card__greeting">Hello 👋 I'm</p>
+                    <div class="info-card__main">
+                        <h1 class="info-card__name">Remy</h1>
+                        <p class="info-card__title">French cuisine chef</p>
+                    </div>
+                </div>
+
+                <div class="header__card languages-card">
+                    <h2 class="languages-card__title">Languages</h2>
+                    <ul class="languages-card__list">
+                        <li class="languages-card__item">
+                            <span class="languages-card__lang-name">French</span>
+                            <div class="languages-card__bar-container">
+                                <div class="languages-card__bar" style="width: 100%;"></div>
+                            </div>
+                        </li>
+                        <li class="languages-card__item">
+                            <span class="languages-card__lang-name">Squeak</span>
+                            <div class="languages-card__bar-container">
+                                <div class="languages-card__bar" style="width: 100%;"></div>
+                            </div>
+                        </li>
+                        <li class="languages-card__item">
+                            <span class="languages-card__lang-name">English</span>
+                            <div class="languages-card__bar-container">
+                                <div class="languages-card__bar" style="width: 65%;"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="main__content">
+                <section class="experience">
+                    <h2 class="section-title">Experience</h2>
+                    <ul class="experience__list">
+                        <li class="experience__card experience__card--accent">
+                            <div class="experience-card__header">
+                                <p class="experience-card__date">Jun. 2023 - Present</p>
+                                <div class="experience-card__badge">
+                                    <span class="experience-card__badge-text">most recent</span>
+                                </div>
+                            </div>
+                            <div class="experience-card__body">
+                                <div class="experience-card__info">
+                                    <h3 class="experience-card__job-title">Marketing Manager</h3>
+                                    <p class="experience-card__meta">Pankayam | Full-time</p>
+                                </div>
+                                <ul class="experience-card__duties">
+                                    <li>Strategy development and planning of campaigns that promote the business and generate genuine traffic</li>
+                                    <li>SEO Content Creation for Blogs, Website, Social media</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="experience__card">
+                            <div class="experience-card__header">
+                                <p class="experience-card__date">2017 - Present</p>
+                            </div>
+                            <div class="experience-card__body">
+                                <div class="experience-card__info">
+                                    <h3 class="experience-card__job-title">Graphic / Web designer</h3>
+                                    <p class="experience-card__meta">Freelance</p>
+                                </div>
+                                <ul class="experience-card__duties">
+                                    <li>Development of internal projects from scratch, product design of brands</li>
+                                    <li>Landing page, webapps and hybrid apps</li>
+                                    <li>Coordinating with outside agencies, art services, web designer, marketing, printers, and colleagues as necessary.</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="experience__card">
+                            <div class="experience-card__header">
+                                <p class="experience-card__date">Sep. 2021 - Jun. 2023</p>
+                            </div>
+                            <div class="experience-card__body">
+                                <div class="experience-card__info">
+                                    <h3 class="experience-card__job-title">Legal Assistant</h3>
+                                    <p class="experience-card__meta">Law Firm | Intern</p>
+                                </div>
+                                <ul class="experience-card__duties">
+                                    <li>Provide administrative support to lawyer and enhance office effectiveness</li>
+                                    <li>Handle communication with clients, witnesses etc.</li>
+                                    <li>repare case briefs and summarize depositions, interrogatories and testimony</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+                <aside class="tools">
+                    <h2 class="tools__title">Tools</h2>
+                    <div class="tools__groups-container">
+                        <div class="tool-group">
+                            <div class="tool-group__tag">
+                                <span class="tool-group__tag-text">design</span>
+                            </div>
+                            <div class="tool-group__card">
+                                <ul class="tool-group__icon-list">
+                                    <li><img src="images/logoFigma.svg" alt="Figma" class="tool-group__icon"></li>
+                                    <li><img src="images/adobe_photoshop.svg" alt="Photoshop" class="tool-group__icon"></li>
+                                    <li><img src="images/adobe_illustrator.svg" alt="Illustrator" class="tool-group__icon"></li>
+                                    <li><img src="images/adobe_premiere.svg" alt="Premiere Pro" class="tool-group__icon"></li>
+                                    <li><img src="images/logoNotion.svg" alt="Notion" class="tool-group__icon"></li>
+                                    <li><img src="images/logoMeet.svg" alt="Google Meet" class="tool-group__icon"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-group">
+                            <div class="tool-group__tag">
+                                <span class="tool-group__tag-text">no-code</span>
+                            </div>
+                            <div class="tool-group__card">
+                                 <ul class="tool-group__icon-list">
+                                    <li><img src="images/logoZapier.svg" alt="Zapìer" class="tool-group__icon"></li>
+                                    <li><img src="images/logoWebflow.svg" alt="Webflow" class="tool-group__icon"></li>
+                                    <li><img src="images/logoFramer.svg" alt="Framer" class="tool-group__icon"></li>
+                                    <li><img src="images/logoWordpress.svg" alt="WordPress" class="tool-group__icon"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tool-group">
+                            <div class="tool-group__tag">
+                                <span class="tool-group__tag-text">artificial intelligence</span>
+                            </div>
+                            <div class="tool-group__card">
+                                 <ul class="tool-group__icon-list">
+                                    <li><img src="images/logoChatGPT.svg" alt="ChatGPT" class="tool-group__icon"></li>
+                                    <li><img src="images/logoCopilot.svg" alt="GitHub Copilot" class="tool-group__icon"></li>
+                                    <li><img src="images/logoMidjourney.svg" alt="Midjourney" class="tool-group__icon"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </aside>              
+            </div>
+        </main>
+        
+        <div class="secondary-content">
+            <section class="education">
+                <h2 class="section-title">Education</h2>
+                <div class="education__grid">
+                    <div class="education-card education-card--accent">
+                        <div class="education-card__header">
+                            <p class="education-card__year">2023</p>
+                            <img src="images/heart.svg" alt="Favorite" class="education-card__icon">
+                        </div>
+                        <div class="education-card__body">
+                            <h3 class="education-card__subject">UI/UX</h3>
+                            <p class="education-card__tags">#UX #UI #research #DesignSystem #Ui #wireframing #figma #Ux</p>
+                        </div>
+                        <p class="education-card__institution">Coursera</p>
+                    </div>
+                    <div class="education-card">
+                        <div class="education-card__header">
+                            <p class="education-card__year">2017 - 2022</p>
+                        </div>
+                        <div class="education-card__body">
+                            <h3 class="education-card__subject">Law</h3>
+                            <p class="education-card__tags">#law #legalStudies #contracts #internationalLaws</p>
+                        </div>
+                        <p class="education-card__institution">University of Kerala</p>
+                    </div>
+                    <div class="education-card">
+                        <div class="education-card__header">
+                            <p class="education-card__year">2017</p>
+                        </div>
+                        <div class="education-card__body">
+                            <h3 class="education-card__subject">Graphic design</h3>
+                            <p class="education-card__tags">#branding #web #illustration #adobe</p>
+                        </div>
+                        <p class="education-card__institution">Coursera</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="right-column">
+                <section class="interests">
+                    <h2 class="section-title">Interests</h2>
+                    <div class="interests__tags-container">
+                        <div class="interests__tag">
+                            <span class="interests__tag-text">branding</span>
+                        </div>
+                        <div class="interests__tag">
+                            <span class="interests__tag-text">design</span>
+                        </div>
+                        <div class="interests__tag">
+                            <span class="interests__tag-text">photography</span>
+                        </div>
+                        <div class="interests__tag">
+                            <span class="interests__tag-text">artificial intelligence</span>
+                        </div>
+                        <div class="interests__tag">
+                            <span class="interests__tag-text">illustration</span>
+                        </div>
+                        <div class="interests__tag">
+                            <span class="interests__tag-text">typography</span>
+                        </div>
+                        <div class="interests__tag">
+                            <span class="interests__tag-text">social networks</span>
+                        </div>
+                        <div class="interests__tag">
+                            <span class="interests__tag-text">research</span>
+                        </div>
+                        <div class="interests__tag">
+                            <span class="interests__tag-text">dron pilot</span>
+                        </div>
+                        <div class="interests__tag">
+                            <span class="interests__tag-text">games</span>
+                        </div>
+                    </div>
+                </section>
+                <div class="contact-card">
+                    <p class="contact-card__title">Let's chat! I'm ready to work on exciting projects</p>
+                    <p class="contact-card__email">srkarthik.designscape@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="actions-footer">
+            <div class="actions-footer__container">
+                <a href="#" id="download-btn" class="action-button action-button--primary">
+                    <img src="images/download-white.svg" alt="">
+                    <span>Download</span>
+                </a>
+                <a href="#" class="action-button">
+                    <img src="images/reset.svg" alt="">
+                    <span>Сброс</span>
+                </a>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
 </html>
